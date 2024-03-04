@@ -1,6 +1,5 @@
 # Bug Bounty One-Liners I found on LinkedIn 
-## I am not the owner of this 
-## credits to the original owner
+## I am not the original owner of the scripts, credits to the original
 
 
 
