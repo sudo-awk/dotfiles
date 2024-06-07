@@ -1,0 +1,22 @@
+$python -c 'import pty; pty.spawn("/bin/bash")'
+
+#Background the shell by pressing ctrl+z
+# You will be back to your own shell
+
+$echo $TERM
+$stty -a
+
+#The information needed is the TERM type (“xterm-256color”) and the size of the current TTY (“rows 38; columns 116”)
+$stty raw -echo;fg
+
+#With a raw stty, input/output will look weird and you won’t see the next commands, but as you type they are being processed.
+
+#Next foreground the shell with fg. It will re-open the reverse shell but formatting will be off. Finally, reinitialize the terminal with reset.
+
+$reset
+#You will be asked for terminal type, you will put
+$xterm
+$ export SHELL=bash
+$ export TERM=xterm256-color
+$ stty rows <num> columns <num>
+
