@@ -1,0 +1,4 @@
+alias nmap='grc nmap'
+alias dumbshell='cat ~/opt/dumbshell'
+alias dl-linpeas='cat ~/opt/dl-linpeas'
+alias dl-pspy='cat ~/opt/dl-pspy'
