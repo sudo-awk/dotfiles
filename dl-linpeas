@@ -1,0 +1,8 @@
+# From github
+curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh
+
+# Without curl
+python -c "import urllib.request; urllib.request.urlretrieve('https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh', 'linpeas.sh')"
+
+python3 -c "import urllib.request; urllib.request.urlretrieve('https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh', 'linpeas.sh')"
+               
