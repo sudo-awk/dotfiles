@@ -10,3 +10,6 @@ alias nmap='grc nmap'
 alias lower='tr '[:upper:]' '[:lower:]''
 alias upper='tr '[:lower:]' '[:upper:]''
 
+
+#Create a timestamp
+
