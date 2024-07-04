@@ -12,4 +12,5 @@ alias upper='tr '[:lower:]' '[:upper:]''
 
 
 #Create a timestamp
+PROMPT=$PROMPT'%F{yellow}%}[%D{%m/%f/%y} %D{%L:%M:%S}]'
 
