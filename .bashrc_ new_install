@@ -1,1 +1,17 @@
+Install locate and fix the db
+└──╼ $sudo apt install plocate
+└──╼ $sudo updatedb.plocate
 
+
+## Create tmux configuration file
+vim ~/.tmux.conf
+## Add the following lines 
+
+~## Enable copy and paste within the tmux buffer$
+set-window-option -g mode-keys vi$
+bind-key -T copy-mode-vi v send -X begin-selection$
+bind-key -T copy-mode-vi V send -X select-line$
+
+## Enable xclip to copy and paste into the keyboard buffer$
+## sudo apt-get install xclip$
+bind-key -T copy-mode-vi y send -X copy-pipe-and-cancel 'xclip -in -selection     clipboard'+$
