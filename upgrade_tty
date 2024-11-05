@@ -1,0 +1,5 @@
+script /dev/null -c /bin/bash
+ctrl + z
+stty raw -echo;fg
+reset
+screen
